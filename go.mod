@@ -1,4 +1,4 @@
-module github.com/argoproj/repository-service
+module github.com/sbose78/repository-service
 
 go 1.16
 
@@ -53,4 +53,5 @@ replace (
 	k8s.io/metrics => k8s.io/metrics v0.20.4
 	k8s.io/mount-utils => k8s.io/mount-utils v0.20.4
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.20.4
+	
 )

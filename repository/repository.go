@@ -47,10 +47,10 @@ import (
 	"github.com/argoproj/argo-cd/util/kustomize"
 	"github.com/argoproj/argo-cd/util/security"
 	"github.com/argoproj/argo-cd/util/text"
-	"github.com/argoproj/repository-service/apiclient"
-	"github.com/argoproj/repository-service/cache"
-	reposervercache "github.com/argoproj/repository-service/cache"
-	"github.com/argoproj/repository-service/metrics"
+	"github.com/sbose78/repository-service/apiclient"
+	"github.com/sbose78/repository-service/cache"
+	reposervercache "github.com/sbose78/repository-service/cache"
+	"github.com/sbose78/repository-service/metrics"
 )
 
 const (

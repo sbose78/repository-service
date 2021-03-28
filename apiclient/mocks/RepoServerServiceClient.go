@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	apiclient "github.com/argoproj/repository-service/apiclient"
+	apiclient "github.com/sbose78/repository-service/apiclient"
 
 	grpc "google.golang.org/grpc"
 

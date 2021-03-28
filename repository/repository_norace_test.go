@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	argoappv1 "github.com/argoproj/argo-cd/pkg/apis/application/v1alpha1"
-	"github.com/argoproj/repository-service/apiclient"
+	"github.com/sbose78/repository-service/apiclient"
 )
 
 func TestHelmDependencyWithConcurrency(t *testing.T) {

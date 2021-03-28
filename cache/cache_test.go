@@ -13,7 +13,7 @@ import (
 	. "github.com/argoproj/argo-cd/pkg/apis/application/v1alpha1"
 	appv1 "github.com/argoproj/argo-cd/pkg/apis/application/v1alpha1"
 	cacheutil "github.com/argoproj/argo-cd/util/cache"
-	"github.com/argoproj/repository-service/apiclient"
+	"github.com/sbose78/repository-service/apiclient"
 )
 
 type fixtures struct {

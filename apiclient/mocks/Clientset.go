@@ -1,7 +1,7 @@
 package mocks
 
 import (
-	apiclient "github.com/argoproj/repository-service/apiclient"
+	apiclient "github.com/sbose78/repository-service/apiclient"
 
 	io "github.com/argoproj/argo-cd/util/io"
 )

@@ -24,11 +24,11 @@ import (
 	"github.com/argoproj/argo-cd/util/healthz"
 	ioutil "github.com/argoproj/argo-cd/util/io"
 	"github.com/argoproj/argo-cd/util/tls"
-	reposerver "github.com/argoproj/repository-service"
-	"github.com/argoproj/repository-service/apiclient"
-	reposervercache "github.com/argoproj/repository-service/cache"
-	"github.com/argoproj/repository-service/metrics"
-	"github.com/argoproj/repository-service/repository"
+	reposerver "github.com/sbose78/repository-service"
+	"github.com/sbose78/repository-service/apiclient"
+	reposervercache "github.com/sbose78/repository-service/cache"
+	"github.com/sbose78/repository-service/metrics"
+	"github.com/sbose78/repository-service/repository"
 )
 
 const (

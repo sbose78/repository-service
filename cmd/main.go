@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	reposerver "github.com/argoproj/repository-service/cmd/argocd-repo-server/commands"
+	reposerver "github.com/sbose78/repository-service/cmd/argocd-repo-server/commands"
 )
 
 const (

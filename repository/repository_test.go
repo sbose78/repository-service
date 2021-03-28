@@ -30,9 +30,9 @@ import (
 	"github.com/argoproj/argo-cd/util/helm"
 	helmmocks "github.com/argoproj/argo-cd/util/helm/mocks"
 	"github.com/argoproj/argo-cd/util/io"
-	"github.com/argoproj/repository-service/apiclient"
-	"github.com/argoproj/repository-service/cache"
-	"github.com/argoproj/repository-service/metrics"
+	"github.com/sbose78/repository-service/apiclient"
+	"github.com/sbose78/repository-service/cache"
+	"github.com/sbose78/repository-service/metrics"
 )
 
 const testSignature = `gpg: Signature made Wed Feb 26 23:22:34 2020 CET
@@ -648,7 +648,7 @@ func TestGenerateHelmWithValuesDirectoryTraversal(t *testing.T) {
 }
 
 // This is a Helm first-class app with a values file inside the repo directory
-// (`~/go/src/github.com/argoproj/repository-service/repository`), so it is allowed
+// (`~/go/src/github.com/sbose78/repository-service/repository`), so it is allowed
 func TestHelmManifestFromChartRepoWithValueFile(t *testing.T) {
 	service := newService(".")
 	source := &argoappv1.ApplicationSource{
@@ -672,7 +672,7 @@ func TestHelmManifestFromChartRepoWithValueFile(t *testing.T) {
 }
 
 // This is a Helm first-class app with a values file outside the repo directory
-// (`~/go/src/github.com/argoproj/repository-service/repository`), so it is not allowed
+// (`~/go/src/github.com/sbose78/repository-service/repository`), so it is not allowed
 func TestHelmManifestFromChartRepoWithValueFileOutsideRepo(t *testing.T) {
 	service := newService(".")
 	source := &argoappv1.ApplicationSource{

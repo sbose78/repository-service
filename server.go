@@ -21,10 +21,10 @@ import (
 	"github.com/argoproj/argo-cd/util/env"
 	grpc_util "github.com/argoproj/argo-cd/util/grpc"
 	tlsutil "github.com/argoproj/argo-cd/util/tls"
-	"github.com/argoproj/repository-service/apiclient"
-	reposervercache "github.com/argoproj/repository-service/cache"
-	"github.com/argoproj/repository-service/metrics"
-	"github.com/argoproj/repository-service/repository"
+	"github.com/sbose78/repository-service/apiclient"
+	reposervercache "github.com/sbose78/repository-service/cache"
+	"github.com/sbose78/repository-service/metrics"
+	"github.com/sbose78/repository-service/repository"
 )
 
 // ArgoCDRepoServer is the repo server implementation

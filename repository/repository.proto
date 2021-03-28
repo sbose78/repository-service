@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/argoproj/repository-service/apiclient";
+option go_package = "github.com/sbose78/repository-service/apiclient";
 
 package repository;
 
